@@ -77,5 +77,3 @@ This project adheres to strict **Responsible AI** principles:
 Jomarie Nacario
 
 [LinkedIn](https://www.linkedin.com/in/j-nacario) | [Github](https://github.com/JomarieNacario/JomarieNacario)
-
-_Developed as a Capstone Project for the Google AI Professional Certificate._
