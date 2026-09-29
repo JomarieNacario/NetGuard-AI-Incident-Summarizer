@@ -1,6 +1,6 @@
 # 🛡️ NetGuard AI: Incident Summarizer v1
 
-# 🚀 Executive Summary
+## 🚀 Executive Summary
 **The Mission:** Bridge the communication gap between complex network security data and actionable business intelligence.
 
 As a U.S. Army Veteran transitioning into Cloud Support and AI Engineering, I developed NetGuard AI to solve a critical friction point identified during my IT Support and Cybersecurity training: the "Technical-to-Business" translation gap. Leveraging the Google AI Professional Certificate curriculum, this project demonstrates how generative AI acts as a force multiplier for IT teams.
@@ -22,51 +22,60 @@ As a U.S. Army Veteran transitioning into Cloud Support and AI Engineering, I de
 | **Model** | `gemini-3.1-pro-preview` |
 | **Context Window** | 1.04M Tokens (Ideal for massive log file synthesis) |
 | **Logic** | Abstract Reasoning & Multi-step Inference |
-| **Stack** | Python 3.12, Streamlit, Google Gen AI SDK |
+| **Stack** | React 19, TypeScript, Vite, Tailwind CSS, Google Gen AI SDK |
 
-###  🧠 Why Gemini 3.1 Pro?
+### 🧠 Why Gemini 3.1 Pro?
 I upgraded the backend to Gemini 3.1 Pro to leverage its superior abstract reasoning. In a security context, this allows the model to perform "Deep Inference"—recognizing that a port scan followed by a failed privilege escalation isn't two random events, but a coordinated attack chain.
 
- ## 🛠️ Installation & Usage
+## 🛠️ Installation & Usage
 
- ### 1. Prerequisites
-* Python 3.14
+### 1. Prerequisites
+* Node.js (v18 or higher recommended)
 * A Google AI Studio API Key [Get one here](https://aistudio.google.com/welcome)
   
- ### 2. Setup
- ```[
-https://github.com/JomarieNacario/NetGuard-AI-Incident-Summarizer.git
+### 2. Setup
+Clone the repository and install the Node dependencies:
+```bash
+git clone https://github.com/JomarieNacario/NetGuard-AI-Incident-Summarizer.git
+cd netguard-ai
+npm install
 ```
-``` cd netguard-ai ```  
- ``` pip install -r requirements.txt ```
- ### 3. Run the App
- ``` streamlit run app.py```
+
+Create a `.env.local` file in the root directory and add your API key:
+```env
+VITE_GEMINI_API_KEY="your_api_key_here"
+```
+
+### 3. Run the App
+Launch the Vite development server:
+```bash
+npm run dev
+```
+Navigate to `http://localhost:3000` in your browser.
 
 ## 📂 Testing Guide
 
-Use the provided samples in the ```/samples``` directory to test the AI's reasoning:
+Use the provided samples in the `/samples` directory to test the AI's reasoning:
 
-*```brute_force.txt```: Tests the model's ability to spot successful logins after multiple failures.
+* `brute_force.txt`: Tests the model's ability to spot successful logins after multiple failures.
+* `wlan_audit.txt`: Tests identification of legacy encryption risks (TKIP).
 
-*```wlan_audit.txt```: Tests identification of legacy encryption risks (TKIP).
-
-# 🛡️ Responsible AI & Data Privacy
+## 🛡️ Responsible AI & Data Privacy
 This project adheres to strict **Responsible AI** principles:
- * **Data Minimization**: No PII is stored or used for model retraining.
+* **Data Minimization**: No PII is stored or used for model retraining.
 * **Human-in-the-Loop**: All AI-generated remediation steps must be verified by a qualified professional.
-* **Migration-Ready**: While prototyped in AI Studio, the architecture is documented for a secure **Vertex AI** migration to support enterprise privacy standards (see ```migration_guide.pdf```).
+* **Migration-Ready**: While prototyped in AI Studio, the architecture is documented for a secure **Vertex AI** migration to support enterprise privacy standards (see `migration_guide.pdf`).
 
-# 🔮 Future Roadmap
+## 🔮 Future Roadmap
 
 * Autonomous Remediation: Use tool-calling to automatically update firewall rules.
 * Multimodal Inputs: Upload screenshots of network topology for visual analysis.
 * Local LLM Support: Integration with Gemma 2 for high-privacy local processing.
 
-# 🤝 Connect
+## 🤝 Connect
 
 Jomarie Nacario
 
 [LinkedIn](https://www.linkedin.com/in/j-nacario) | [Github](https://github.com/JomarieNacario/JomarieNacario)
 
 _Developed as a Capstone Project for the Google AI Professional Certificate._
-
