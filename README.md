@@ -3,7 +3,7 @@
 ## 🚀 Executive Summary
 **The Mission:** Bridge the communication gap between complex network security data and actionable business intelligence.
 
-As a U.S. Army Veteran transitioning into Cloud Support and AI Engineering, I developed NetGuard AI to solve a critical friction point identified during my IT Support and Cybersecurity training: the "Technical-to-Business" translation gap. Leveraging the Google AI Professional Certificate curriculum, this project demonstrates how generative AI acts as a force multiplier for IT teams.
+As a U.S. Army Veteran transitioning into Cloud Support and AI Engineering, I developed NetGuard AI to solve a critical friction point identified during my IT Support and Cybersecurity training: the "Technical-to-Business" translation gap. This project demonstrates how generative AI acts as a force multiplier for IT teams.
 
 ### 🔑 Key Highlights
 * **Cloud & AI Fluent:** Built with Gemini 3.1 Pro Preview, showcasing expertise in Google Cloud's most advanced reasoning models.
