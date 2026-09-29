@@ -35,7 +35,7 @@ I upgraded the backend to Gemini 3.1 Pro to leverage its superior abstract reaso
   
  ### 2. Setup
  ```[
-git clone (https://github.com/JomarieNacario/netguard-ai-incident-summarizer)](https://github.com/JomarieNacario/NetGuard-AI-Incident-Summarizer.git)
+https://github.com/JomarieNacario/NetGuard-AI-Incident-Summarizer.git
 ```
 ``` cd netguard-ai ```  
  ``` pip install -r requirements.txt ```
