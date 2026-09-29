@@ -34,8 +34,8 @@ I upgraded the backend to Gemini 3.1 Pro to leverage its superior abstract reaso
 * A Google AI Studio API Key [Get one here](https://aistudio.google.com/welcome)
   
  ### 2. Setup
- ```
-git clone (https://github.com/JomarieNacario/netguard-ai-incident-summarizer)
+ ```[
+git clone (https://github.com/JomarieNacario/netguard-ai-incident-summarizer)](https://github.com/JomarieNacario/NetGuard-AI-Incident-Summarizer.git)
 ```
 ``` cd netguard-ai ```  
  ``` pip install -r requirements.txt ```
