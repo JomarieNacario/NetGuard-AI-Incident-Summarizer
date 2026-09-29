@@ -1,0 +1,5 @@
+{
+  "name": "Netguard AI: Incident Summarizer",
+  "description": "Transforms raw technical data into structured cybersecurity incident reports.",
+  "requestFramePermissions": []
+}
